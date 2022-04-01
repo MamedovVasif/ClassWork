@@ -38,5 +38,10 @@ namespace ConsoleApp4.Models
     {
         public int TransmissionKind { get; set; }
     }
+	public string ShowInfo(string any)
+	{
+		Console.WriteLine(HorsePower, TankSize , FuelType)
+	}
+	}
     
 }
