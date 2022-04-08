@@ -1,0 +1,32 @@
+﻿[
+  {
+    "Id": 0,
+    "Count": 3,
+    "TotalPrice": 0.0,
+    "Products": {
+      "Id": 0,
+      "Name": "Corek",
+      "Price": 0.65
+    }
+  },
+  {
+    "Id": 0,
+    "Count": 8,
+    "TotalPrice": 0.0,
+    "Products": {
+      "Id": 0,
+      "Name": "Pendir",
+      "Price": 4.25
+    }
+  },
+  {
+    "Id": 0,
+    "Count": 1,
+    "TotalPrice": 0.0,
+    "Products": {
+      "Id": 0,
+      "Name": "Yumurta",
+      "Price": 0.65
+    }
+  }
+]

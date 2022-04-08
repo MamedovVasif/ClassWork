@@ -1,0 +1,22 @@
+[
+  {
+    "ID": 1,
+    "Name": "qarpiz",
+    "Price": 0.3
+  },
+  {
+    "ID": 2,
+    "Name": "pendir",
+    "Price": 4.0
+  },
+  {
+    "ID": 3,
+    "Name": "corek",
+    "Price": 0.5
+  },
+  {
+    "ID": 4,
+    "Name": "goyerti",
+    "Price": 0.2
+  }
+]
