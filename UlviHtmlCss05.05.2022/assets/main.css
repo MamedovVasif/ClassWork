@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&family=Poppins:wght@500&display=swap');
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    padding-top: 10px;
+    width: 100%;
+    height: 10%;
+}
+.start{
+    float: left;
+    margin-left: 15%;
+    color: #bdb4af;
+    font-size: 14px;
+    margin-top: 3px;
+}
+.b{
+    float: right;
+    margin-right: 10%;
+}
+.navspan a{
+    font-size: 10px;
+    text-decoration: none;
+    color: #bdb4af;
+    margin-left: 10px;
+}
+.container {
+    background-image: linear-gradient(to top, rgb(92, 77, 66 , 0.8) 0%,rgb(92, 77, 66 , 0.8) 100%),url('/images/backround.jpg');
+    background-size: contain;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.clear{
+    clear: both;
+}
+.centernav{
+    text-align: center;
+}
+.centernav h1{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+.xett{
+    width: 40px;
+    height: 3px;
+    background-color: tomato;
+    border-radius: 4px; 
+    margin-left: 48%;
+    box-sizing: border-box;
+    border: none;
+    margin-top: 2%;
+}
+.asaginav{
+    margin-top: 1%;
+    color: rgb(255 255 255 / 75%);
+    text-align: center;
+}
+.buttonaft{
+    text-align: center;
+}
+.bt1{
+    width: 130px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: rgb(244,98,58);
+    border: none;
+    margin-top: 2%;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.4s;
+    font-family: sans-serif;
+}
+.header{
+    text-align: center;
+    background-color: rgb(244,98,58);
+}
+.ch1{
+    color: white;
+    padding-top: 10%;
+}
+.chr hr{
+    width: 40px;
+    height: 3px;
+    background-color: white;
+    border-radius: 4px; 
+    margin-left: 48%;
+    box-sizing: border-box;
+    border: none;
+    margin-top: 2%;
+}
+.csp {
+    color: rgb(255 255 255 / 75%);
+    margin-top: 2%;
+}
+.bt2{
+    width: 130px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    margin-top: 2%;
+    color: black;
+    font-weight: 600
+}
+a:hover{
+    color: white;
+    transition: 0.4s;
+}
+.bt1:hover{
+    filter: brightness(70%);
+}
