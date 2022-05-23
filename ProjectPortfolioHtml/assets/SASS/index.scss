@@ -1,18 +1,101 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 @font-face {
-    font-family: 'Montserrat', sans-serif;
-    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700&display=swap');
+    font-family: "Montserrat", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700&display=swap");
 }
-.navbar{
-    margin-top: 2%;
+.container {
+    margin-top: 30px;
 }
-.container img{
-    width: 220px;
+.row img {
     height: 25px;
+}
+.menuitem .ulnav li {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding-right: 40px;
+}
+.navbar .container .row {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+ul {
+    margin-right: -500px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.men::after {
+    content: "";
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: black;
+    transition: 200ms;
+    color: black;
+}
+.men:hover::after {
+    width: 100%;
+    color: black;
+}
+a:hover {
+    color: black;
+}
+.sear:hover {
+    cursor: pointer;
+    transition: 500ms;
+    color: red;
+}
+.sear {
+    font-size: 18px;
+}
+.bag {
+    font-size: 18px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown:hover .dropdown-content {display: block;}
+//buraaaaaaaaaaa menuuuuuuuuuuuuuuuu
+.slide{
+    background-color: #F5F5F7;
+}
+.slide span{
+    word-spacing: 4px;
+    font-size: 50px;
+}
+.flowers{
+    color: red;
+}
+.slide p{
+    color: rgb(123,120,120);
+}
+.slide img {
+    width: 156px;
+    height: 56px;
 }
