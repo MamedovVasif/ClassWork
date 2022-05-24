@@ -82,20 +82,30 @@ a:hover {
   .dropdown-content a:hover {background-color: #ddd;}
   .dropdown:hover .dropdown-content {display: block;}
 //buraaaaaaaaaaa menuuuuuuuuuuuuuuuu
-.slide{
-    background-color: #F5F5F7;
+// .slide{
+//     background-color: #F5F5F7;
+// }
+// .slide span{
+//     word-spacing: 4px;
+//     font-size: 50px;
+// }
+// .flowers{
+//     color: red;
+// }
+// .slide p{
+//     color: rgb(123,120,120);
+// }
+// .slide img {
+//     width: 156px;
+//     height: 56px;
+// }
+.slide1{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    background-position: ;
 }
-.slide span{
-    word-spacing: 4px;
-    font-size: 50px;
-}
-.flowers{
-    color: red;
-}
-.slide p{
-    color: rgb(123,120,120);
-}
-.slide img {
-    width: 156px;
-    height: 56px;
+body{
+    background-color: black;
 }
